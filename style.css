@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'tt';
+  src: url('fonts/TT\ Ramillas\ Trial\ Medium.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'tt', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #b8caca8c;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 90vw;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2e8c89;
+  text-align: center;
+}
+
+.link-box {
+  width: 100%;
+  padding-top: 50%; /* Mantém a proporção de 2:1 (altura = 50% da largura) */
+  margin-bottom: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.link-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  .link-box {
+    margin-bottom: 3vh; /* Ajusta a margem para telas maiores */
+
+  }
+  h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: #2e8c89;
+    text-align: center;
+  }
+}
