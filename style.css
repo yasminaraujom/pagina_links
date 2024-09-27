@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'tt';
-  src: url('fonts/TT\ Ramillas\ Trial\ Medium.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
@@ -10,7 +7,7 @@
 }
 
 body {
-  font-family: 'tt', sans-serif;
+  font-family: "Montserrat", sans-serif;;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,8 +22,9 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 100px;
   color: #2e8c89;
   text-align: center;
 }
@@ -60,7 +58,7 @@ h1 {
   }
   h1 {
     font-size: 3.5em;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: #2e8c89;
     text-align: center;
   }
